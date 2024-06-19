@@ -1,0 +1,12 @@
+s=set()
+s.add("prachi")
+s.add("madhukar")
+s.add("mate")
+s.add("siddarth")
+s.add("gadge")
+s.add("vijay")
+a={"gadge","any"}
+# s.remove("prachi")
+# s.pop()
+# s.clear()
+print(s.intersection(a))

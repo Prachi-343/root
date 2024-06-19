@@ -1,0 +1,10 @@
+p = 10000
+r = 3.5
+nt = 7
+fv = p*((1+(0.01*r)) ** nt)
+print("future vslue=",fv)
+# FV = P(1 + r/n)^nt.
+# P = the principal;
+# r = the annual interest rate expressed as a decimal;
+# n = the number of times interest is paid each year;
+# t = time in years.
